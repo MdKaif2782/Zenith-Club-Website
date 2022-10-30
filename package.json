@@ -1,6 +1,9 @@
 {
   "name": "Club-Website",
   "version": "1.0.0",
+  "engines": {
+    "node": "16.13.0"
+  },
   "private": true,
   "dependencies": {
     "@babel/core": "7.1.0",
