@@ -57,7 +57,7 @@
   },
   "homepage": "./",
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
