@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae3274eb-2dfa-4c32-a2f1-f8546ca91018" name="Changes" comment="fg" />
+    <list default="true" id="ae3274eb-2dfa-4c32-a2f1-f8546ca91018" name="Changes" comment="fg">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +29,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -36,7 +43,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667127325703</updated>
-      <workItem from="1667127330800" duration="271000" />
+      <workItem from="1667127330800" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="fg">
       <created>1667127548485</created>
@@ -45,7 +52,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667127548485</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fg">
+      <created>1667127783033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667127783033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fg">
+      <created>1667127839100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667127839100</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
