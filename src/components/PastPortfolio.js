@@ -8,6 +8,8 @@ export default class Porfolio extends Component {
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Past Work</h1>
+            <p className="info">We fight for a prosperous and happy Bangladesh. We want to transform Bangladesh into a developed and digitalized country. For achieving this goal we are working on some projects. Here we are mentioning some of our previous projects:
+            </p>
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-halves cf">
             {
               webData.portfolio && webData.PastPortfolio.map((item)=>{

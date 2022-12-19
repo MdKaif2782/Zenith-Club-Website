@@ -23,11 +23,11 @@ class App extends Component {
         <Mission webData={webData}/>
         {/* <Portfolio webData={webData}/>
         <PastPortfolio webData={webData}/> */}
-        <NewPortfolio webData={webData}/>
+        {/*<NewPortfolio webData={webData}/>*/}
         <NewPastPortfolio webData={webData}/>
         <Photos />
-        <AdvisorPhotos />
-        <Alumni />
+        {/*<AdvisorPhotos />*/}
+        {/*<Alumni />*/}
         <Timeline />
         <Cooperation />
         <Testimonials webData={webData}/>

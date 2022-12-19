@@ -1,29 +1,29 @@
 let webData = {
-    "role": "SCIENCE IN EVERYWHERE",
-    "name": "Xenon Science Congress",
+    "role": "We empower the power of next generation",
+    "name": "Zenith Science and IT Aiming Club",
     "addr": "Adamjee Cantonment Public School",
-    "email": "xenon@gmail.edu",
+    "email": "teamzenith694@gmail.com",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/y-yan",
-          "className":"fa fa-linkedin"
+          "url":"https://www.facebook.com/zsiac.official",
+          "className":"fa fa-facebook"
         },
         {
           "name":"github",
-          "url":"https://github.com/yanym/Cornell-Club",
+          "url":"https://github.com/MdKaif2782/Club-Website",
           "className":"fa fa-github"
-        },
-        {
-          "name":"ins",
-          "url":"https://www.instagram.com/vency012/",
-          "className":"fa fa-instagram"
         }
       ],
     "mission":[
       {
-        "specialization":"CornellQuant is an organization to encourage interdisciplinary research and engineering. We aim to provide a platform where we could communicate, learn the cutting-edge data science tech, and identify the key challenges as well as opportunities interdisciplinary areas. We wish to create an environment where our members can generate new ideas and be more creative not only in research but also in real-world applications. At present, we focus on machine /deep learning and optimization methods that could bridge that gap between quantitative analysis and industry applications. We regularly hold seminars organize discussions on these topics with professors in related fields and would raise interesting projects for members to get hands on experience."
+        "specialization":"Zenith Science and IT Aiming Club is a non-governmental and multi-venture organization based on education, science, technology, youth development, and many more. Since its inception, the organization has been working selflessly and successfully in serving the country and the people. Our goal is to take the country forward on the path of development. Everyone living in this country is a part of our own existence. Our mission is to give that opportunity to the deprived part of that existence to come forward. Lastly, there is only one thing we want to empower the power of the next generation and move forward with a happy Bangladesh."
       },
+    ],
+    "project":[
+        {
+            "specialization":"Zenith Science and IT Aiming Club is a non-governmental and multi-venture organization based on education, science, technology, youth development, and many more. Since its inception, the organization has been working selflessly and successfully in serving the country and the people. Our goal is to take the country forward on the path of development. Everyone living in this country is a part of our own existence. Our mission is to give that opportunity to the deprived part of that existence to come forward. Lastly, there is only one thing we want to empower the power of the next generation and move forward with a happy Bangladesh."
+        },
     ],
     "portfolio":[
       {
@@ -57,19 +57,26 @@ let webData = {
     ],
     "PastPortfolio":[
       {
-        "name":"Project1",
-        "description":"past is past",
-        "content":"The night after his ninety-fifth-birthday party, my father fell while turning around. ",
+        "name":"Zenith National Science and IT Fiesta",
+        "description":"During the pandemic of covid 19, we organized a virtual event so that people can showcase their talents in their respective fields.  In addition to the depression, anxiety, and stress caused by the Corona epidemic, school, and college students were also experiencing emotional distress such as excessive stubbornness, stubbornness, and loneliness. Being locked in the house for a long time due to the Corona epidemic had a far-reaching negative impact on everyone's mental development. To relieve that pressure we organized a virtual event with a good number of segments. There almost 1.5k participants participated.",
+        "content":"",
         "imgurl":"images/profilepic1.jpg",
-        "url": "www.google.com"
+        "url": "#"
       },
       {
-        "name":"Project2",
-        "description":"mobileap2p",
-        "content":"We gonna change the world.",
+        "name":"ইফতার হোক সবার",
+        "description":"In the month of holy Ramadan, we tried to do something for the unfed people. We distributed Iftar to more than 500 underprivileged people. Almost 25+ volunteers helped us to make this project successful.",
+        "content":"",
         "imgurl":"images/profilepic2.jpg",
         "url": "www.google.com"
-      }
+      },
+        {
+        "name":"1st National Math Olympiad",
+            "description":"In this era of science and technology, math is the most important thing. We believe that math is the backbone of science and technology. It can solve many difficult problems in our daily life. To find the real math lovers of the country and make students interested in mathematics we organized the “1st National Math Olympiad 2022” There almost more than five thousand students participated and explored new things.",
+            "content":"",
+            "imgurl":"https://play-lh.googleusercontent.com/M5WwsJSclgmEnj75bDxZ5YwraEj_IXwShmp3E6CoEjIf9WkWEpGR-gUiscJ85fB3Iwk",
+            "url": "www.google.com"
+        }
     ],
     "testimonials":[
       {

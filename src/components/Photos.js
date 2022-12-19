@@ -9,34 +9,34 @@ export default class photos extends Component {
         <section id="photos" style={{ background: 'white' }}>
           <div className="row" >
             <div className="twelve columns" >
-            <h1>Team</h1>
+            <h1>Sub-Organizations</h1>
               <Row>
                 <Col sm={4} md={4} lg={4}></Col>
-                <Col xs={12} sm={8} md={8} lg={8}>
-                  <Card 
-                    hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
-                    cover={<img alt="example" src="images/photo1.jpg" />}
-                  >
-                  <Meta style={{ fontSize: '15px'}}
-                    title="Cornell"
-                    description="Engineering phddddd testing the length"
-                  />
-                  </Card>
-                </Col>
-                <Col xs={12} sm={8} md={8} lg={8}>                  <Card
-                    hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
-                  >
-                  <Meta style={{ fontSize: '15px' }}
-                    title="Upenn"
-                    description="CIS"
-                  />
-                  </Card>
-                </Col>
+                {/*<Col xs={12} sm={8} md={8} lg={8}>*/}
+                {/*  <Card */}
+                {/*    hoverable={false}*/}
+                {/*    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}*/}
+                {/*    bordered={false}*/}
+                {/*    cover={<img alt="example" src="https://i.ibb.co/ymCykx9/20221024-155044.png" />}*/}
+                {/*  >*/}
+                {/*  <Meta style={{ fontSize: '15px'}}*/}
+                {/*    title="Xenon Science Congress"*/}
+                {/*    description="Science Club"*/}
+                {/*  />*/}
+                {/*  </Card>*/}
+                {/*</Col>*/}
+                {/*<Col xs={12} sm={8} md={8} lg={8}>                  <Card*/}
+                {/*    hoverable={false}*/}
+                {/*    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}*/}
+                {/*    bordered={false}*/}
+                {/*    cover={<img alt="example" src="https://i.ibb.co/209g02g/volunteer-s-white-bg.jpg" />}*/}
+                {/*  >*/}
+                {/*  <Meta style={{ fontSize: '15px' }}*/}
+                {/*    title="Zenith Volunteer’s"*/}
+                {/*    description="CIS"*/}
+                {/*  />*/}
+                {/*  </Card>*/}
+                {/*</Col>*/}
               </Row>
               <Row>
                 <Col xs={12} sm={8} md={8} lg={8}>
@@ -44,11 +44,11 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img alt="example" src="https://i.ibb.co/19RptTn/Blue-bg.jpg" />}
                   >
                   <Meta style={{ fontSize: '15px'}}
-                    title="UMich"
-                    description="Good"
+                    title="Social Media Olympiad"
+                    // description="Good"
                   />
                   </Card>
                 </Col>
@@ -57,12 +57,12 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo3.jpg" />}
+                    cover={<img alt="example" src="https://i.ibb.co/ymCykx9/20221024-155044.png" />}
                   >
-                  <Meta style={{ fontSize: '15px'}}
-                    title="MIT"
-                    description="Best"
-                  />
+                    <Meta style={{ fontSize: '15px'}}
+                          title="Xenon Science Congress"
+                          // description="Science Club"
+                    />
                   </Card>
                 </Col>
                 <Col xs={12} sm={8} md={8} lg={8}>
@@ -70,12 +70,12 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img alt="example" src="https://i.ibb.co/209g02g/volunteer-s-white-bg.jpg" />}
                   >
-                  <Meta style={{ fontSize: '15px'}}
-                    title="Caltech"
-                    description="Second"
-                  />
+                    <Meta style={{ fontSize: '15px' }}
+                          title="Zenith Volunteer’s"
+                          // description="CIS"
+                    />
                   </Card>
                 </Col>
               </Row>

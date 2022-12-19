@@ -5,7 +5,7 @@ export default class Header extends Component {
   componentDidMount() {
   	// If you want to pass more options as props, simply add
     // your desired props to this destructuring assignment.
-    const strings  = ['Xenon Science Congress','Science is Everywhere'];
+    const strings  = ['Zenith IT Aiming Club','We empower the power of next generation'];
     // You can pass other options here, such as typing speed, back speed, etc. Check offical css.
     const options = {
     	strings: strings,
