@@ -14,6 +14,7 @@ import NewPortfolio from './components/NewPortfolio'
 import NewPastPortfolio from './components/NewPastPortfolio'
 import Cooperation from './components/Cooperation'
 import Timeline from './components/Timeline'
+import Blogs from "./components/Blogs";
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
         <PastPortfolio webData={webData}/> */}
         {/*<NewPortfolio webData={webData}/>*/}
         <NewPastPortfolio webData={webData}/>
+          <Blogs/>
         <Photos />
         {/*<AdvisorPhotos />*/}
         {/*<Alumni />*/}
