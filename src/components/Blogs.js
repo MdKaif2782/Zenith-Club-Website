@@ -10,6 +10,7 @@ import {getDocs,collection,orderBy,query} from "firebase/firestore";
 function Blogs() {
     const [blogs,setBlogs] = useState([]);
 
+
        useEffect(()=>{
            const q = query(collection(db, "blogs"), orderBy("date", "desc"));
            getDocs(q).then((querySnapshot) => {

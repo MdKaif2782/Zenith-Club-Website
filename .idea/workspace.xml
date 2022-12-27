@@ -4,11 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae3274eb-2dfa-4c32-a2f1-f8546ca91018" name="Changes" comment="blogs" />
+    <list default="true" id="ae3274eb-2dfa-4c32-a2f1-f8546ca91018" name="Changes" comment="blogs firebase">
+      <change afterPath="$PROJECT_DIR$/src/components/Blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blogs.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,6 +88,9 @@
       <workItem from="1671454788847" duration="3333000" />
       <workItem from="1672054580839" duration="353000" />
       <workItem from="1672055167498" duration="880000" />
+      <workItem from="1672056244744" duration="362000" />
+      <workItem from="1672065632409" duration="10000" />
+      <workItem from="1672147615001" duration="3086000" />
     </task>
     <task id="LOCAL-00001" summary="fg">
       <created>1667127548485</created>
@@ -116,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672055985477</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="blogs firebase">
+      <created>1672056491280</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672056491280</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +163,7 @@
     <MESSAGE value="fg" />
     <MESSAGE value="netlify" />
     <MESSAGE value="blogs" />
-    <option name="LAST_COMMIT_MESSAGE" value="blogs" />
+    <MESSAGE value="blogs firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="blogs firebase" />
   </component>
 </project>

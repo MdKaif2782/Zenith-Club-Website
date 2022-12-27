@@ -16,26 +16,20 @@ import Cooperation from './components/Cooperation'
 import Timeline from './components/Timeline'
 import Blogs from "./components/Blogs";
 
+import { BrowserRouter ,Routes, Route} from "react-router-dom";
+import HomePage from "./components/HomePage";
+import Blog from "./components/Blog";
+
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header webData={webData}/>
-        <Mission webData={webData}/>
-        {/* <Portfolio webData={webData}/>
-        <PastPortfolio webData={webData}/> */}
-        {/*<NewPortfolio webData={webData}/>*/}
-        <NewPastPortfolio webData={webData}/>
-          <Blogs/>
-        <Photos />
-        {/*<AdvisorPhotos />*/}
-        {/*<Alumni />*/}
-        <Timeline />
-        <Cooperation />
-        <Testimonials webData={webData}/>
-        <ContactUs webData={webData}/>
-        <Footer webData={webData}/>
-      </div>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<HomePage/>}/>
+            <Route path="/blogs/:id" element={<Blog/>}/>
+          </Routes>
+        </BrowserRouter>
+
     );
   }
 }
