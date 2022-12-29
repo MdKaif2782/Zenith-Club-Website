@@ -14,17 +14,21 @@ function Blog() {
  //q: how to disable refreshing firestore data when the page is refreshed?
     // a: use useEffect
     useEffect(()=>{
-        getDoc(doc(db, "blogs", id)).then((doc) => {
-            if (doc.exists()) {
-                setBlog(doc.data());
-                setTags(doc.data().tags);
-                setDate(doc.data().date);
-            } else {
-
-            }
-        }).catch((error) => {
-
-        });
+        if (blog.title === undefined) {
+            getDoc(doc(db, "blogs", id)).then((doc) => {
+                if (doc.exists()) {
+                    console.log("Document data:", doc.data());
+                    setBlog(doc.data());
+                    setTags(doc.data().tags);
+                    setDate(doc.data().date);
+                } else {
+                    // doc.data() will be undefined in this case
+                    console.log("No such document!");
+                }
+            }).catch((error) => {
+                console.log("Error getting document:", error);
+            });
+        }
     },[])
 
     function secondsToStringDate(seconds) {

@@ -20,6 +20,7 @@ import Blogs from "./components/Blogs";
 import { BrowserRouter ,Routes, Route} from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Blog from "./components/Blog";
+import * as path from "path";
 
 
 class App extends Component {
@@ -31,6 +32,7 @@ class App extends Component {
             <Route path='/blogs/:id' element={<Blog/>} />
           </Routes>
         </BrowserRouter>
+
 
     );
   }
