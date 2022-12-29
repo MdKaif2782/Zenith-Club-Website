@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae3274eb-2dfa-4c32-a2f1-f8546ca91018" name="Changes" comment="blogs firebase">
-      <change afterPath="$PROJECT_DIR$/src/components/Blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomePage.js" afterDir="false" />
+    <list default="true" id="ae3274eb-2dfa-4c32-a2f1-f8546ca91018" name="Changes" comment="netlify">
+      <change afterPath="$PROJECT_DIR$/src/EmptyList/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EmptyList/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/blog.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blog.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Blogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blogs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,27 +39,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sm/OneDrive/Documents/GitHub/Club-Website/src/components&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/Proggrams/Club-Website/src/BlogSystem",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sm\OneDrive\Documents\GitHub\Club-Website\src\components" />
-      <recent name="C:\Users\sm\OneDrive\Documents\GitHub\Club-Website\src" />
+      <recent name="G:\Proggrams\Club-Website\src\BlogSystem" />
+      <recent name="G:\Proggrams\Club-Website\src\components" />
+      <recent name="G:\Proggrams\Club-Website\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -85,12 +84,11 @@
       <workItem from="1667722347249" duration="695000" />
       <workItem from="1667731537081" duration="294000" />
       <workItem from="1668320373831" duration="17000" />
-      <workItem from="1671454788847" duration="3333000" />
-      <workItem from="1672054580839" duration="353000" />
-      <workItem from="1672055167498" duration="880000" />
-      <workItem from="1672056244744" duration="362000" />
-      <workItem from="1672065632409" duration="10000" />
-      <workItem from="1672147615001" duration="3086000" />
+      <workItem from="1671454788847" duration="3668000" />
+      <workItem from="1671691676974" duration="3000" />
+      <workItem from="1672238438607" duration="1989000" />
+      <workItem from="1672303618001" duration="2357000" />
+      <workItem from="1672306292224" duration="6028000" />
     </task>
     <task id="LOCAL-00001" summary="fg">
       <created>1667127548485</created>
@@ -127,19 +125,19 @@
       <option name="project" value="LOCAL" />
       <updated>1667723028831</updated>
     </task>
-    <task id="LOCAL-00006" summary="blogs">
-      <created>1672055985476</created>
+    <task id="LOCAL-00006" summary="netlify">
+      <created>1671458216763</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1672055985477</updated>
+      <updated>1671458216763</updated>
     </task>
-    <task id="LOCAL-00007" summary="blogs firebase">
-      <created>1672056491280</created>
+    <task id="LOCAL-00007" summary="netlify">
+      <created>1671458369766</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1672056491280</updated>
+      <updated>1671458369766</updated>
     </task>
     <option name="localTasksCounter" value="8" />
     <servers />
@@ -162,8 +160,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fg" />
     <MESSAGE value="netlify" />
-    <MESSAGE value="blogs" />
-    <MESSAGE value="blogs firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="blogs firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="netlify" />
   </component>
 </project>

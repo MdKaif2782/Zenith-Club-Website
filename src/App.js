@@ -16,9 +16,11 @@ import Cooperation from './components/Cooperation'
 import Timeline from './components/Timeline'
 import Blogs from "./components/Blogs";
 
+
 import { BrowserRouter ,Routes, Route} from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Blog from "./components/Blog";
+
 
 class App extends Component {
   render() {
@@ -26,7 +28,7 @@ class App extends Component {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<HomePage/>}/>
-            <Route path="/blogs/:id" element={<Blog/>}/>
+            <Route path='/blogs/:id' element={<Blog/>} />
           </Routes>
         </BrowserRouter>
 

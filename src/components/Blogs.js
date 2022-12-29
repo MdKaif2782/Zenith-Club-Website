@@ -15,6 +15,10 @@ function Blogs() {
            const q = query(collection(db, "blogs"), orderBy("date", "desc"));
            getDocs(q).then((querySnapshot) => {
                const data = querySnapshot.docs.map(doc => doc.data());
+               for (let i = 0; i<querySnapshot.docs.length; i++){
+                     data[i].id = querySnapshot.docs[i].id;
+                     data[i].url = "/blogs/"+querySnapshot.docs[i].id;
+               }
                setBlogs(data);
            });
        })
