@@ -2,7 +2,4 @@
   "projects": {
     "default": "zenith-quiz-app"
   }
-   "hosting": {
-      "site": "zenith-club",
-      "public": "public",
 }
