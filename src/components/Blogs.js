@@ -2,6 +2,7 @@ import React, { useState ,useEffect} from 'react';
 import { List} from 'antd';
 import db from '../Firebase';
 import {getDocs,collection,orderBy,query} from "firebase/firestore";
+import {Link} from "react-router-dom";
 
 
 
@@ -51,7 +52,7 @@ function Blogs() {
                             >
                                 <List.Item.Meta
                                     // avatar={<Avatar src={item.avatar} />}
-                                    title={<a href={item.url}>{item.title}</a>}
+                                    title={<Link to={item.url}>{item.title}</Link>}
                                     description={item.description}
                                 />
                                 {item.content}
